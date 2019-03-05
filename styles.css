@@ -1,0 +1,74 @@
+.header{
+    display:flex;}
+
+.logo{
+    width:25%;}
+    
+.page-tittle{
+    width:75%;}
+
+.main-container{
+  width:20%;  
+  display:flex;}
+
+.cat-box{
+    width:80%;
+    display:flex;
+    justify-content:space-around;
+    background-color:white;
+   }
+.menu-list{
+    display:flex;
+    justify-content:space-between;}
+
+
+.cat-container {
+    display:flex;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Don't touch CSS below here: */
+body {
+  margin: 0px;
+}
+
+.logo {
+  font-size: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: bisque; 
+}
+.menu-list {
+    background-color: burlywood;
+}
+
+.page-title {
+    
+}
+
+.cat-box img {
+  width: 200px;
+  height: 200px;
+}
+
+.cat-container {
+     background-color: slategrey;
+}
