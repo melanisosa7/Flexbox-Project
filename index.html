@@ -1,0 +1,116 @@
+<!DOCTYPE html> <html><head>
+        <title>Flexbox Project</title>
+    <style>.header{
+    display:flex;}
+
+.logo{
+    width:25%;}
+    
+.page-tittle{
+    width:75%;}
+
+.main-container{
+  width:20%;  
+  display:flex;}
+
+.cat-box{
+    width:80%;
+    display:flex;
+    justify-content:space-around;
+    background-color:white;
+   }
+.menu-list{
+    display:flex;
+    justify-content:space-between;}
+
+
+.cat-container {
+    display:flex;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Don't touch CSS below here: */
+body {
+  margin: 0px;
+}
+
+.logo {
+  font-size: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: bisque; 
+}
+.menu-list {
+    background-color: burlywood;
+}
+
+.page-title {
+    
+}
+
+.cat-box img {
+  width: 200px;
+  height: 200px;
+}
+
+.cat-container {
+     background-color: slategrey;
+}</style></head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                🐱
+            </div>
+            <h1 class="page-title">Cool Cats</h1>
+        </div>
+        
+        <div class="main-container">
+          
+        <ul class="menu-list">
+            <li>Popular Cats</li>
+            <li>Cute Cats</li>
+            <li>Hiding Cats</li>
+        </ul>
+        </div>
+        <!--End Menu-->
+        
+        <!--Cat Content-->
+    
+        <div class="cat-container">
+        <div class="cat-box">
+            <img src="http://www.placekitten.com/200/200">
+            <p class="name">Socks</p>
+        </div>
+        <div class="cat-box">
+            <img src="http://www.placekitten.com/203/200">
+            <p class="name">Paws</p>
+        </div>
+        <div class="cat-box">
+            <img src="http://www.placekitten.com/200/203">
+            <p class="name">Bob</p>
+        </div>
+        </div>
+        
+        <!--End Cat Content-->
+        
+    
+
+</body></html>
